@@ -1,15 +1,148 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Basics of Ethics – End-Sem Study Guide</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Basics of Ethics · End-Sem Study Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-body{font:16px/1.65 Georgia,serif;max-width:900px;margin:0 auto;padding:2rem 1.2rem;color:#222;background:#fdfcf8}
-h1,h2,h3{font-family:system-ui,sans-serif;line-height:1.25}h2{border-bottom:2px solid #ddd;padding-bottom:.3rem;margin-top:2.5rem}
-table{border-collapse:collapse;width:100%;font-size:.92em;margin:1rem 0;display:block;overflow-x:auto}
-th,td{border:1px solid #ccc;padding:.4rem .6rem;vertical-align:top}th{background:#f0ede4}
-blockquote{border-left:4px solid #b9a66b;margin:1rem 0;padding:.3rem 1rem;background:#f7f3e8}
-pre{background:#f4f4f4;padding:1rem;overflow-x:auto;font-size:.85em}code{font-size:.9em}
-@media(prefers-color-scheme:dark){body{background:#1b1b1b;color:#ddd}th{background:#2a2a2a}th,td{border-color:#444}blockquote{background:#262318}pre{background:#262626}}
-</style></head><body><main id="c">Loading…</main>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>fetch('guide.md').then(r=>r.text()).then(t=>{document.getElementById('c').innerHTML=marked.parse(t)})</script>
-</body></html>
+:root{--bg:#faf8f3;--panel:#f2eee4;--ink:#1f1d1a;--muted:#6b665c;--line:#ddd6c6;--accent:#8a5a1f;--accent2:#2f5d8a;--hl:#fff3c4;--quote:#f5efdf;--w:46rem}
+[data-theme=dark]{--bg:#16161a;--panel:#1e1e24;--ink:#e6e2da;--muted:#9a958b;--line:#33333b;--accent:#d9a45b;--accent2:#7fb0e0;--hl:#4a3f12;--quote:#23211b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Source Serif 4",Georgia,serif;-webkit-font-smoothing:antialiased}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:.8rem;padding:.6rem 1rem;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);font-family:Inter,sans-serif}
+header .title{font-weight:700;font-size:.95rem;white-space:nowrap}
+header .title span{color:var(--accent)}
+#q{flex:1;max-width:22rem;margin-left:auto;padding:.45rem .7rem;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit;font-size:.85rem}
+button.ic{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:.4rem .6rem;cursor:pointer;font:500 .8rem Inter,sans-serif}
+#bar{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:30;width:0}
+.wrap{display:grid;grid-template-columns:17rem minmax(0,1fr);max-width:84rem;margin:0 auto}
+nav{position:sticky;top:3.2rem;height:calc(100vh - 3.2rem);overflow:auto;padding:1.2rem .8rem 2rem 1.2rem;border-right:1px solid var(--line);font:.82rem/1.45 Inter,sans-serif}
+nav a{display:block;color:var(--muted);text-decoration:none;padding:.22rem .5rem;border-radius:6px}
+nav a.h3{padding-left:1.3rem;font-size:.78rem}
+nav a:hover{background:var(--panel);color:var(--ink)}
+nav a.on{color:var(--accent);background:var(--panel);font-weight:600}
+main{padding:2rem clamp(1rem,4vw,3.5rem) 6rem;min-width:0}
+main>*{max-width:var(--w)}
+main>table,main>pre,main>div.tw{max-width:100%}
+h1,h2,h3,h4{font-family:Inter,sans-serif;line-height:1.25;letter-spacing:-.01em}
+h1{font-size:2.1rem;margin:.2rem 0 1rem}
+h2{font-size:1.45rem;margin:3.2rem 0 1rem;padding-top:1rem;border-top:2px solid var(--line)}
+h3{font-size:1.12rem;margin:2.2rem 0 .7rem;color:var(--accent)}
+p,li{hyphens:auto}
+strong{font-weight:600}
+a{color:var(--accent2)}
+a.cite{font:600 .78em Inter,sans-serif;text-decoration:none;background:color-mix(in srgb,var(--accent2) 12%,transparent);padding:.05em .35em;border-radius:4px;white-space:nowrap}
+a.cite:hover{background:color-mix(in srgb,var(--accent2) 25%,transparent)}
+a.cite::after{content:" ↗";font-size:.85em;opacity:.7}
+blockquote{margin:1.2rem 0;padding:.6rem 1.1rem;background:var(--quote);border-left:4px solid var(--accent);border-radius:0 8px 8px 0}
+.tw{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:.88rem;line-height:1.5}
+th,td{padding:.55rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--panel);font:600 .8rem Inter,sans-serif;position:sticky;top:0}
+tr:last-child td{border-bottom:0}
+pre{background:var(--panel);padding:1rem;border-radius:10px;overflow-x:auto;font-size:.78rem;line-height:1.45}
+code{font-size:.85em;background:var(--panel);padding:.1em .3em;border-radius:4px}
+pre code{background:none;padding:0}
+hr{border:0;border-top:1px dashed var(--line);margin:2.5rem 0}
+mark{background:var(--hl);color:inherit;border-radius:2px}
+li.task{list-style:none;margin-left:-1.3rem}
+li.task input{margin-right:.5rem;transform:scale(1.15);accent-color:var(--accent)}
+li.task.done{color:var(--muted);text-decoration:line-through}
+#top{position:fixed;right:1.2rem;bottom:1.2rem;display:none}
+#menu{display:none}
+.hidden{display:none!important}
+@media(max-width:900px){.wrap{grid-template-columns:1fr}nav{position:fixed;left:0;top:3.2rem;width:80vw;max-width:20rem;background:var(--bg);z-index:25;transform:translateX(-105%);transition:transform .2s;box-shadow:0 0 30px #0003}nav.open{transform:none}#menu{display:inline-block}header .title{font-size:.85rem}}
+@media print{header,nav,#top,#bar{display:none!important}.wrap{display:block}body{font-size:11pt;background:#fff;color:#000}a.cite::after{content:""}h2{page-break-before:always}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<header>
+  <button class="ic" id="menu" aria-label="Contents">☰</button>
+  <div class="title">Basics of Ethics <span>· End-Sem Guide</span></div>
+  <input id="q" type="search" placeholder="Search the guide (e.g. phronesis, Boisjoly)…" aria-label="Search">
+  <button class="ic" id="theme" title="Toggle dark mode">◐</button>
+</header>
+<div class="wrap">
+  <nav id="toc" aria-label="Contents"></nav>
+  <main id="c">Loading…</main>
+</div>
+<button class="ic" id="top" onclick="scrollTo({top:0})">↑ Top</button>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script>
+const REPO='https://github.com/nilavra17ghosh/Boe/blob/main/';
+const enc=p=>REPO+p.split('/').map(encodeURIComponent).join('/');
+const F={
+  kant:['readings/Kant_Good_Will_and_Categorical_Imperative_LE_pp86-93.pdf',85],
+  ari:['readings/Aristotle_Nicomachean_Ethics_LE_pp143-150.pdf',142],
+  sl10:['readings/ShaferLandau_Ch10_Virtue_Ethics_LE_pp134-143.pdf',133],
+  le:['Russ Shafer-Landau_Living Ethics An Introduction with Readings.pdf',-17],
+  vdp:['Chapter 1_The responsibilities of engineers (from Ibo van de Poel, Lambèr Royakkers - Ethics, Technology, and Engineering).pdf',5],
+};
+const SLIDES=['BoE_01_Introduction.pdf','BoE_02_Cognitivism, Non-cognitivism, DCT.pdf','BoE_03_Moral Skepticism.pdf','BoE_04_Hedonism.pdf','BoE_05_From hedonism to utilitarianism.pdf','BoE_06_Utilitarianism_Act and Rule.pdf','BoE_07_Kants deontological ethics and the trolley problem.pdf','BoE_08_Aristotle and Virtue Ethics.pdf','BoE_09_Ethics, Engineering, and Responsibility.pdf'];
+const FILES={'BoE_end_2024_M.pdf':'BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics of Ethics/BoE_end_2024_M.pdf','BoE_quiz1_2024_M_key.pdf':'BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics of Ethics/BoE_quiz1_2024_M_key.pdf','Quiz-1_answer key-1.pdf':'Quiz-1_answer key-1.pdf','Endsem.jpg':'Endsem.jpg','Quiz-1.jpeg':'Quiz-1.jpeg'};
+SLIDES.forEach((f,i)=>FILES['BoE_0'+(i+1)]=f);
+function leFile(a,b){b=b||a;
+  if(a>=86&&b<=93)return F.kant;
+  if(a>=143&&b>=144)return F.ari; if(a>=144&&a<=150)return F.ari;
+  if(a>=134&&b<=143)return F.sl10;
+  return F.le;}
+function link(href,text,tip){return `<a class="cite" href="${href}" target="_blank" rel="noopener" title="${tip}">${text}</a>`}
+function cite(html){
+  // LE p.86 / LE pp.87–88 / LE p.144–145
+  html=html.replace(/\bLE (pp?\.)\s?(\d{2,3})(?:[–-](\d{2,3}))?/g,(m,pp,a,b)=>{const [f,off]=leFile(+a,b&&+b);const pg=+a-off;
+    return link(enc(f),m,`Living Ethics p.${a}${b?'–'+b:''} → open ${f.split('/').pop()}, go to PDF page ${pg}`)});
+  html=html.replace(/\bvdP (pp?\.)\s?(\d{1,2})(?:[–-](\d{1,2}))?/g,(m,pp,a,b)=>link(enc(F.vdp[0]),m,`van de Poel & Royakkers p.${a}${b?'–'+b:''} → PDF page ${+a-F.vdp[1]}`));
+  // L7 s13, L7 s8, s13 and s14, L9 s16–20
+  html=html.replace(/\bL([1-9]) (s\d+(?:[–-]\d+)?(?:(?:,\s?| and | \/ )s\d+(?:[–-]\d+)?)*)/g,(m,l,rest)=>{
+    const f=enc(SLIDES[l-1]);
+    return `L${l} `+rest.replace(/s(\d+)(?:[–-](\d+))?/g,(x,a)=>link(f,x,`Lecture ${l}, slide ${a} → PDF page ${a}`));});
+  return html;}
+function walk(node){
+  for(const n of [...node.childNodes]){
+    if(n.nodeType===3){const t=n.textContent;if(/\b(LE pp?\.|vdP pp?\.|L[1-9] s\d)/.test(t)){const s=document.createElement('span');s.innerHTML=cite(t.replace(/&/g,'&amp;').replace(/</g,'&lt;'));n.replaceWith(...s.childNodes)}}
+    else if(n.nodeType===1&&!/^(A|PRE|CODE|SCRIPT)$/.test(n.tagName))walk(n);}}
+const slug=s=>s.toLowerCase().replace(/<[^>]+>/g,'').replace(/[^\w\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,60);
+
+fetch('guide.md').then(r=>r.text()).then(md=>{
+  md=md.replace(/^- ☐ /gm,'- [ ] ').replace(/^(\d+)\. ☐ /gm,'- [ ] ');
+  const c=document.getElementById('c');
+  c.innerHTML=marked.parse(md,{gfm:true});
+  c.querySelectorAll('table').forEach(t=>{const d=document.createElement('div');d.className='tw';t.replaceWith(d);d.appendChild(t)});
+  c.querySelectorAll('code').forEach(k=>{const t=k.textContent.trim();const key=Object.keys(FILES).find(x=>t===x||t.startsWith(x));
+    if(key&&!k.closest('pre')){const a=document.createElement('a');a.href=enc(FILES[key]);a.target='_blank';a.className='cite';a.textContent=t;a.title='Open source file';k.replaceWith(a)}});
+  walk(c);
+  // checklist persistence
+  c.querySelectorAll('li input[type=checkbox]').forEach((cb,i)=>{const li=cb.closest('li');li.classList.add('task');cb.disabled=false;
+    const k='boe-chk-'+i;cb.checked=localStorage.getItem(k)==='1';li.classList.toggle('done',cb.checked);
+    cb.onchange=()=>{localStorage.setItem(k,cb.checked?'1':'0');li.classList.toggle('done',cb.checked)}});
+  // TOC
+  const toc=document.getElementById('toc');const hs=[...c.querySelectorAll('h2,h3')];
+  hs.forEach(h=>{h.id=h.id||slug(h.textContent);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent.replace(/^PART (\d+):/,'$1 ·');a.className=h.tagName.toLowerCase();toc.appendChild(a);a.onclick=()=>toc.classList.remove('open')});
+  const links=[...toc.querySelectorAll('a')];
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-10% 0px -80% 0px'});
+  hs.forEach(h=>io.observe(h));
+  if(location.hash)document.querySelector(location.hash)?.scrollIntoView();
+  setupSearch(c);
+});
+function setupSearch(c){
+  const blocks=[...c.children];const q=document.getElementById('q');
+  q.oninput=()=>{const v=q.value.trim().toLowerCase();
+    c.querySelectorAll('mark').forEach(m=>m.replaceWith(...m.childNodes));
+    if(v.length<3){blocks.forEach(b=>b.classList.remove('hidden'));return}
+    let cur=null;blocks.forEach(b=>{if(/^H[23]$/.test(b.tagName))cur=b;const hit=b.textContent.toLowerCase().includes(v);b.classList.toggle('hidden',!hit&&!/^H[12]$/.test(b.tagName));if(hit&&cur)cur.classList.remove('hidden')});
+    blocks.filter(b=>!b.classList.contains('hidden')).forEach(b=>mark(b,v));};}
+function mark(el,v){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);const ns=[];while(w.nextNode())ns.push(w.currentNode);
+  ns.forEach(n=>{const i=n.textContent.toLowerCase().indexOf(v);if(i<0)return;const r=document.createRange();r.setStart(n,i);r.setEnd(n,i+v.length);const m=document.createElement('mark');r.surroundContents(m)});}
+// chrome
+const root=document.documentElement;const saved=localStorage.getItem('boe-theme');
+if(saved?saved==='dark':matchMedia('(prefers-color-scheme: dark)').matches)root.dataset.theme='dark';
+document.getElementById('theme').onclick=()=>{const d=root.dataset.theme==='dark';root.dataset.theme=d?'':'dark';localStorage.setItem('boe-theme',d?'light':'dark')};
+document.getElementById('menu').onclick=()=>document.getElementById('toc').classList.toggle('open');
+addEventListener('scroll',()=>{const h=document.documentElement;document.getElementById('bar').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';document.getElementById('top').style.display=h.scrollTop>800?'block':'none'});
+</script>
+</body>
+</html>

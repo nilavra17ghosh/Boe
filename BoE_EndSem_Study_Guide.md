@@ -10,6 +10,24 @@ Everything here comes from the files in this folder. Each claim is cited so you 
 
 Text in quotation marks was checked word for word against the source PDFs. Text marked *(paraphrase)* is not a quotation, so don't put it in quote marks in the exam.
 
+## Sources: open and check
+
+The links open the file in the **private GitHub repo**, so you need to be logged in as the repo owner. Citations throughout the guide (e.g. *LE p.92*, *vdP p.11*, *L7 s13*) are clickable and open the right file. GitHub's PDF viewer can't jump to a page, so the page to scroll to is shown when you hover over the link and in the table below.
+
+| Source | File | Page conversion |
+|---|---|---|
+| Kant, "The Good Will and the Categorical Imperative" (*Groundwork*, trans. Gregor), in Shafer-Landau, *Living Ethics* pp. 86–93 | [open](https://github.com/nilavra17ghosh/Boe/blob/main/readings/Kant_Good_Will_and_Categorical_Imperative_LE_pp86-93.pdf) | LE p.N = excerpt page N − 85 |
+| Aristotle, *Nicomachean Ethics* Bk II (trans. Ross), in *Living Ethics* pp. 143–150 | [open](https://github.com/nilavra17ghosh/Boe/blob/main/readings/Aristotle_Nicomachean_Ethics_LE_pp143-150.pdf) | LE p.N = excerpt page N − 142 |
+| Shafer-Landau, *Living Ethics* Ch. 10 "Virtue Ethics" (textbook commentary, pp. 134–143) | [open](https://github.com/nilavra17ghosh/Boe/blob/main/readings/ShaferLandau_Ch10_Virtue_Ethics_LE_pp134-143.pdf) | LE p.N = excerpt page N − 133 |
+| van de Poel & Royakkers, *Ethics, Technology, and Engineering* (2011), Ch. 1 | [open](https://github.com/nilavra17ghosh/Boe/blob/main/Chapter%201_The%20responsibilities%20of%20engineers%20%28from%20Ibo%20van%20de%20Poel%2C%20Lamb%C3%A8r%20Royakkers%20-%20Ethics%2C%20Technology%2C%20and%20Engineering%29.pdf) | vdP p.N = PDF page N − 5 |
+| Shafer-Landau, *Living Ethics* (full book) | [open](https://github.com/nilavra17ghosh/Boe/blob/main/Russ%20Shafer-Landau_Living%20Ethics%20An%20Introduction%20with%20Readings.pdf) | LE p.N = PDF page N + 17 |
+
+**Lecture slides** (slide *sN* = PDF page N): [L1](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_01_Introduction.pdf) · [L2](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_02_Cognitivism%2C%20Non-cognitivism%2C%20DCT.pdf) · [L3](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_03_Moral%20Skepticism.pdf) · [L4](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_04_Hedonism.pdf) · [L5](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_05_From%20hedonism%20to%20utilitarianism.pdf) · [L6](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_06_Utilitarianism_Act%20and%20Rule.pdf) · [L7](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_07_Kants%20deontological%20ethics%20and%20the%20trolley%20problem.pdf) · [L8](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_08_Aristotle%20and%20Virtue%20Ethics.pdf) · [L9](https://github.com/nilavra17ghosh/Boe/blob/main/BoE_09_Ethics%2C%20Engineering%2C%20and%20Responsibility.pdf)
+
+**Exam papers:** [End-sem 2024 paper](https://github.com/nilavra17ghosh/Boe/blob/main/BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics%20of%20Ethics/BoE_end_2024_M.pdf) · [Quiz-1 2026 paper (photo)](https://github.com/nilavra17ghosh/Boe/blob/main/Quiz-1.jpeg) · [**Quiz-1 2026 answer key**](https://github.com/nilavra17ghosh/Boe/blob/main/Quiz-1_answer%20key-1.pdf) · [Quiz-1 2024 paper](https://github.com/nilavra17ghosh/Boe/blob/main/BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics%20of%20Ethics/BoE_quiz1_2024_M.pdf) · [Quiz-1 2024 key](https://github.com/nilavra17ghosh/Boe/blob/main/BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics%20of%20Ethics/BoE_quiz1_2024_M_key.pdf) · [Pop quiz 2024](https://github.com/nilavra17ghosh/Boe/blob/main/BOE/VijayrajS-iiitprevpapers/Year4/CS/BOE-Basics%20of%20Ethics/BoE_pop-quiz_2024_M_key.pdf) · [End-sem syllabus notice](https://github.com/nilavra17ghosh/Boe/blob/main/Endsem.jpg)
+
+---
+
 ---
 
 ## PART 0: What the exam looks like and what the professor rewards
@@ -395,9 +413,9 @@ These connect to engineering: the ideal engineer should be more than a technicia
 
 | Ideal | Content | Moral status (vdP) | Course example |
 |---|---|---|---|
-| **Technological enthusiasm** | Developing new possibilities. Florman: *"the existential pleasures of engineering"* (p.14) | Not wrong in itself, since intrinsic motivation is good. The danger is overlooking negative effects | Google Earth (privacy, security); **Wernher von Braun**: *"My refusal to join the party would have meant that I would have had to abandon the work of my life. Therefore, I decided to join"* (p.15) |
-| **Effectiveness and efficiency** | Effectiveness = how far a goal is achieved. Efficiency = goal achieved ÷ effort (p.16) | Seems "neutral and objective" but is **value-laden**: it presupposes an external goal, which *"can be… war or even genocide"*, and the choice of inputs is value-laden too (p.18) | **Taylor** and scientific management. **Eichmann**, *"proud of the efficient way"* he contributed to genocide (Arendt) (p.18) |
-| **Human welfare** | *"Engineers shall hold paramount the safety, health and welfare of the public"* (codes, p.19). Safety is central. For software, privacy and reliability | Morally laudable. It shows engineering *"is not something that is morally neutral and that engineers do more than merely develop neutral means for the goals of others"* (p.21) | **Johan van Veen** ("the new Cassandra") and the Dutch dykes / 1953 flood (pp.19–20) |
+| **Technological enthusiasm** | Developing new possibilities. Florman: *"the existential pleasures of engineering"* (vdP p.14) | Not wrong in itself, since intrinsic motivation is good. The danger is overlooking negative effects | Google Earth (privacy, security); **Wernher von Braun**: *"My refusal to join the party would have meant that I would have had to abandon the work of my life. Therefore, I decided to join"* (vdP p.15) |
+| **Effectiveness and efficiency** | Effectiveness = how far a goal is achieved. Efficiency = goal achieved ÷ effort (vdP p.16) | Seems "neutral and objective" but is **value-laden**: it presupposes an external goal, which *"can be… war or even genocide"*, and the choice of inputs is value-laden too (vdP p.18) | **Taylor** and scientific management. **Eichmann**, *"proud of the efficient way"* he contributed to genocide (Arendt) (vdP p.18) |
+| **Human welfare** | *"Engineers shall hold paramount the safety, health and welfare of the public"* (codes, p.19). Safety is central. For software, privacy and reliability | Morally laudable. It shows engineering *"is not something that is morally neutral and that engineers do more than merely develop neutral means for the goals of others"* (vdP p.21) | **Johan van Veen** ("the new Cassandra") and the Dutch dykes / 1953 flood (pp.19–20) |
 
 **9. Engineers vs managers: three models** (vdP pp.21–25; L9 s27–28):
 - **Separatism:** *"scientists and engineers should apply the technical inputs, but appropriate management and political organs should make the value decisions"* (Goldberg, quoted vdP p.21).
@@ -696,16 +714,16 @@ Name the objection, then give the best reply, then your verdict: *"An objection 
 **Kant** (*Groundwork*, trans. Gregor, in LE)
 | Use for | Quotation | Page |
 |---|---|---|
-| Good will | "It is impossible to think of anything at all in the world, or indeed even beyond it, that could be considered good without limitation except a good will." | LE 86 |
-| Worth independent of results | "…like a jewel, it would still shine by itself, as something that has its full worth in itself." | LE 87 |
-| Duty and moral worth | "…he is beneficent not from inclination but from duty." | LE 88 |
-| Supreme principle | "I ought never to act except in such a way that I could also will that my maxim should become a universal law." | LE 88 |
-| False promise | "…my maxim, as soon as it were made a universal law, would have to destroy itself." | LE 89 |
-| Categorical imperative | "act only in accordance with that maxim through which you can at the same time will that it become a universal law." | LE 90 |
-| Fairness | "…we take the liberty of making an exception to it for ourselves (or just for this once)…" | LE 91 |
-| Persons vs things | "…rational beings are called persons because their nature already marks them out as an end in itself…" | LE 91 |
-| Humanity | "So act that you use humanity, whether in your own person or in the person of any other, always at the same time as an end, never merely as a means." | LE 92 |
-| Consent test | "…he whom I want to use for my purposes by such a promise cannot possibly agree to my way of behaving toward him…" | LE 92 |
+| Good will | "It is impossible to think of anything at all in the world, or indeed even beyond it, that could be considered good without limitation except a good will." | LE p.86 |
+| Worth independent of results | "…like a jewel, it would still shine by itself, as something that has its full worth in itself." | LE p.87 |
+| Duty and moral worth | "…he is beneficent not from inclination but from duty." | LE p.88 |
+| Supreme principle | "I ought never to act except in such a way that I could also will that my maxim should become a universal law." | LE p.88 |
+| False promise | "…my maxim, as soon as it were made a universal law, would have to destroy itself." | LE p.89 |
+| Categorical imperative | "act only in accordance with that maxim through which you can at the same time will that it become a universal law." | LE p.90 |
+| Fairness | "…we take the liberty of making an exception to it for ourselves (or just for this once)…" | LE p.91 |
+| Persons vs things | "…rational beings are called persons because their nature already marks them out as an end in itself…" | LE p.91 |
+| Humanity | "So act that you use humanity, whether in your own person or in the person of any other, always at the same time as an end, never merely as a means." | LE p.92 |
+| Consent test | "…he whom I want to use for my purposes by such a promise cannot possibly agree to my way of behaving toward him…" | LE p.92 |
 | Moral law within (slide) | "the starry heaven above me and the moral law within me" | L7 s7 |
 
 *Note: L7 s7 attributes the "starry heaven" line to the* Critique of Judgment*; L2 s12 just calls it "Kant's famous dictum". It actually comes from the conclusion of the* Critique of Practical Reason*. If you use it, attribute it simply to Kant.*
@@ -713,36 +731,36 @@ Name the objection, then give the best reply, then your verdict: *"An objection 
 **Aristotle** (*Nicomachean Ethics* II, trans. Ross, in LE)
 | Use for | Quotation | Page |
 |---|---|---|
-| Two kinds of virtue | "intellectual virtue in the main owes both its birth and its growth to teaching… while moral virtue comes about as a result of habit" | LE 144 |
-| Nature | "Neither by nature, then, nor contrary to nature do the virtues arise in us; rather we are adapted by nature to receive them, and are made perfect by habit." | LE 144 |
-| Learning by doing | "…we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts." | LE 144 |
-| Practical aim | "…we are inquiring not in order to know what virtue is, but in order to become good…" | LE 144 |
-| Inexactness | "…matters concerned with conduct and questions of what is good for us have no fixity, any more than matters of health." | LE 144 |
-| Education | "…so as both to delight in and to be pained by the things that we ought; this is the right education." | LE 145 |
-| Virtuous agent | "…it is not the man who does these that is just and temperate, but the man who also does them as just and temperate men do them." | LE 146 |
-| Mean, right way | "…at the right times, with reference to the right objects, towards the right people, with the right motive, and in the right way…" | LE 147 |
-| Definition | "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us…" | LE 147 |
-| Difficulty | "For men are good in but one way, but bad in many." | LE 147 |
-| No mean for vice | "…however they are done they are wrong…" | LE 147 |
-| Hard to be good | "…anyone can get angry—that is easy… but to do this to the right person, to the right extent, at the right time… that is not for everyone, nor is it easy" | LE 149 |
-| Perception | "…the decision rests with perception." | LE 150 |
+| Two kinds of virtue | "intellectual virtue in the main owes both its birth and its growth to teaching… while moral virtue comes about as a result of habit" | LE p.144 |
+| Nature | "Neither by nature, then, nor contrary to nature do the virtues arise in us; rather we are adapted by nature to receive them, and are made perfect by habit." | LE p.144 |
+| Learning by doing | "…we become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts." | LE p.144 |
+| Practical aim | "…we are inquiring not in order to know what virtue is, but in order to become good…" | LE p.144 |
+| Inexactness | "…matters concerned with conduct and questions of what is good for us have no fixity, any more than matters of health." | LE p.144 |
+| Education | "…so as both to delight in and to be pained by the things that we ought; this is the right education." | LE p.145 |
+| Virtuous agent | "…it is not the man who does these that is just and temperate, but the man who also does them as just and temperate men do them." | LE p.146 |
+| Mean, right way | "…at the right times, with reference to the right objects, towards the right people, with the right motive, and in the right way…" | LE p.147 |
+| Definition | "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us…" | LE p.147 |
+| Difficulty | "For men are good in but one way, but bad in many." | LE p.147 |
+| No mean for vice | "…however they are done they are wrong…" | LE p.147 |
+| Hard to be good | "…anyone can get angry—that is easy… but to do this to the right person, to the right extent, at the right time… that is not for everyone, nor is it easy" | LE p.149 |
+| Perception | "…the decision rests with perception." | LE p.150 |
 
 **van de Poel and Royakkers** (Ch.1)
 | Use for | Quotation | Page |
 |---|---|---|
-| Responsibility | "…being held accountable for your actions and for the effects of your actions." | 9 |
-| Active | "…responsibility before something has happened. It refers to a duty or task to care for certain state-of-affairs or persons." | 9 |
-| Roles | "Each role brings with it certain responsibilities." | 9 |
-| Professional responsibility | "…based on your role as a professional engineer in as far it stays within the limits of what is morally allowed." | 10 |
-| Degrees of blame | "The extent to which you can be blamed is determined by the degree to which these conditions are fulfilled." | 11 |
-| Active responsibility = virtue | "Active responsibility is not primarily about blame but requires a certain positive attitude or character trait…" | 13 |
-| Efficiency | "…effectiveness and efficiency suppose an external goal… That external goal can be… war or even genocide." | 18 |
-| Codes | "Engineers shall hold paramount the safety, health and welfare of the public" | 19 |
-| Not neutral | "…engineers do more than merely develop neutral means for the goals of others." | 21 |
-| Separatism (Goldberg) | "…scientists and engineers should apply the technical inputs, but appropriate management and political organs should make the value decisions" | 21 |
-| Hired gun (Lehrer) | "Once the rockets go up / Who cares where they come down / 'that's not my department,' said Wernher von Braun." | 22 |
-| Von Braun | "My refusal to join the party would have meant that I would have had to abandon the work of my life. Therefore, I decided to join" | 15 |
-| Paternalism | "…paternalism denies that people have the right to shape their own lives." | 23 |
+| Responsibility | "…being held accountable for your actions and for the effects of your actions." | vdP p.9 |
+| Active | "…responsibility before something has happened. It refers to a duty or task to care for certain state-of-affairs or persons." | vdP p.9 |
+| Roles | "Each role brings with it certain responsibilities." | vdP p.9 |
+| Professional responsibility | "…based on your role as a professional engineer in as far it stays within the limits of what is morally allowed." | vdP p.10 |
+| Degrees of blame | "The extent to which you can be blamed is determined by the degree to which these conditions are fulfilled." | vdP p.11 |
+| Active responsibility = virtue | "Active responsibility is not primarily about blame but requires a certain positive attitude or character trait…" | vdP p.13 |
+| Efficiency | "…effectiveness and efficiency suppose an external goal… That external goal can be… war or even genocide." | vdP p.18 |
+| Codes | "Engineers shall hold paramount the safety, health and welfare of the public" | vdP p.19 |
+| Not neutral | "…engineers do more than merely develop neutral means for the goals of others." | vdP p.21 |
+| Separatism (Goldberg) | "…scientists and engineers should apply the technical inputs, but appropriate management and political organs should make the value decisions" | vdP p.21 |
+| Hired gun (Lehrer) | "Once the rockets go up / Who cares where they come down / 'that's not my department,' said Wernher von Braun." | vdP p.22 |
+| Von Braun | "My refusal to join the party would have meant that I would have had to abandon the work of my life. Therefore, I decided to join" | vdP p.15 |
+| Paternalism | "…paternalism denies that people have the right to shape their own lives." | vdP p.23 |
 
 **Three-point drills for quote identification** (the Quiz-1 Q3 format)
 - **"…like a jewel, it would still shine by itself…" (Kant, *Groundwork*, LE p.87).**
@@ -820,6 +838,63 @@ Name the objection, then give the best reply, then your verdict: *"An objection 
 10. Distinguish the trolley problem from the patient's dilemma using the DDE and Foot's negative/positive duties. How would Kant respond?
 11. Can an AI system be morally responsible? Use the four conditions and Kant's distinction between acting from duty and in accordance with duty.
 12. Explain the Collingridge dilemma. Does the social context of technology diminish or extend engineers' responsibility?
+
+---
+
+## APPENDIX: Earlier topics that can be asked directly
+The 2024 end-sem asked a pure pre-quiz question (the experience machine). These are compact, answer-key-style summaries. Each point is labelled the way the keys reward.
+
+**A. Nozick's experience machine** (L4 s15–19; 2024 end-sem Q2)
+- **The thought experiment:** a machine that simulates a lifetime of the best experiences. Once plugged in, you believe it's real. Compare it with a person who *actually* lives those experiences. The real life seems better, although both contain equal happiness.
+- **Its purpose:** to refute **hedonism**, the view that only pleasurable experience is intrinsically good. It also extends the **argument from false happiness** (L4 s14).
+- **Reasons not to plug in** (L4 s16–19):
+  1. We want to **do** things, not just experience doing them.
+  2. We want to **be** a certain sort of person (courageous, kind). This is a direct link to Aristotle's virtue.
+  3. The machine limits us to a **human-made reality**, with no **contact with deeper reality**.
+  4. **False beliefs:** your pride rests on an illusion.
+  5. **Isolation:** we are *zoon politikon* (Aristotle), and solidarity comes through shared pain.
+  6. It narrows the **range of emotions** that makes us human.
+  7. **Responsibility to the world:** there is work to be done.
+  8. **Autonomy** has value beyond happiness (L4 s19).
+- **Mill's angle** (rewarded in the Quiz-1 key): higher pleasures can explain, from within utilitarianism, why you shouldn't plug in.
+- **Your verdict:** stay out. Then justify it with two of the reasons above.
+
+**B. The standard relativist argument** (L3 s12–16; Quiz-1 2026 key)
+
+| Step | Claim | Midgley mapping |
+|---|---|---|
+| **Descriptive relativism** | Cultures differ in their fundamental beliefs about value | The samurai custom of "trying out one's new sword" on strangers |
+| **Ethical relativism** | What is right in one culture may be wrong in another; there are no universal moral truths | We can never understand any culture except our own |
+| **Prescriptive relativism** | It is wrong to judge other cultures | **Moral isolationism**: moral judgment is a coinage valid only in its country of origin |
+
+**Flaws (from the key):**
+1. Shared values across cultures do exist.
+2. It moves from **is to ought**.
+3. It moves from **belief to truth**.
+4. It **refutes itself**: if nothing is universally wrong, judging other cultures can't be universally wrong either.
+
+**C. Mackie's error theory vs emotivism** (L2 s8–11, L3 s17–18; Quiz-1 2026 key)
+- **Error theory:** **cognitivist**. Moral claims express beliefs and are truth-apt, but they are **always false**.
+- **Emotivism:** **non-cognitivist**. Moral claims express emotions or approval ("Boo!/Hurrah!") and are not truth-apt.
+- **Argument from queerness:**
+  - **Metaphysical part:** objective values would be entities "utterly different from anything else in the universe".
+  - **Epistemological part:** we could know them only through some special faculty of moral intuition.
+- **Link to Kant:** the categorical imperative claims exactly the desire-independent, action-guiding authority that Mackie calls "queer".
+
+**D. Mill on higher pleasures** (L5 s31–36; Quiz-1 2026 key). Author: **J.S. Mill**. Points:
+1. **Quality as well as quantity** of pleasure.
+2. Humans have **faculties higher than animal appetites**.
+3. **Intellectual pleasures** are higher than **bodily** ones.
+4. The **competent-judge test:** those who know both kinds prefer the higher.
+5. It counters the "**swine doctrine**" charge.
+6. **Link** to the experience machine.
+
+**E. Hedonism vs desire-satisfaction theory, egoism, DCT** (Quiz-1 2024 key; L2–L4)
+- **Hedonism:** pleasure is the only intrinsic good. **DST:** the satisfaction of one's desires is the good.
+- **Objections to hedonism:** evil pleasure; false happiness; the experience machine; autonomy.
+- **Egoism vs relativism:** egoism makes morality relative to the *self*; relativism makes it relative to *culture*.
+- **Euthyphro:** God commands acts *because* they are right; they aren't right because God commands them.
+- **Ought implies can:** capability is a necessary condition of obligation. **Can implies ought** is the fallacy of thinking that because one can do something, one should (in effect, that might makes right).
 
 ---
 *Lower priority (skim only): the supplementary books in this folder (Edmonds,* Would You Kill the Fat Man*; Lipscomb; Mac Cumhaill & Wiseman; de Waal; Kowalski; Criado Perez; Andy West; Isaacson). They are background for the trolley problem and the "four women" (Anscombe, Foot, Midgley, Murdoch) the slides mention, but they are not on the end-sem syllabus. Hospers Ch.8 (`.ps` file) supports L1–2 meta-ethics only.*
