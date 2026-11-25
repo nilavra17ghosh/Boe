@@ -10,6 +10,142 @@ Everything here comes from the files in this folder. Each claim is cited so you 
 
 Text in quotation marks was checked word for word against the source PDFs. Text marked *(paraphrase)* is not a quotation, so don't put it in quote marks in the exam.
 
+## Start here: the whole course in plain words
+
+**What is ethics asking?** Two basic questions. *What should I do?* (right and wrong actions) and *What kind of life and person is good?* Philosophers answer them with **theories**: general principles that tell you how to decide any case, the way a formula solves any instance of a maths problem.
+
+**The three big theories on your syllabus**, using one example: *should I lie to a friend to spare their feelings?*
+
+- **Utilitarianism (Bentham, Mill; Lecture 6):** look at the **results**. Do whatever produces the most happiness overall. If the lie makes everyone happier, lie.
+- **Kant's ethics (Lecture 7):** look at the **rule you're acting on** and your **motive**. Ask whether everyone could act on that rule, and whether you're treating the other person as a thinking being who deserves respect. Deceiving your friend manipulates them, so don't lie, whatever the result.
+- **Aristotle's virtue ethics (Lecture 8):** look at your **character**. Ask what an honest, kind and sensible person would do. Probably tell the truth gently, choosing the right moment and words. There's no formula; it takes practical judgment.
+
+**Lecture 9 applies all this to engineers.** When something goes wrong (the Challenger shuttle exploded), *who is to blame, and why?* And before anything goes wrong, *what should a good engineer do?*
+
+**Reading tips:** a term with a dotted underline shows its meaning when you hover over it (tap on a phone). Every term is also listed in the Glossary just below. *Italic text in quotation marks* is a real quotation with its page; "(paraphrase)" means it's in my words, not the author's.
+
+## Glossary: every technical term in plain words
+
+<details>
+<summary><strong>Open the glossary</strong> (about 110 terms, A–Z by topic)</summary>
+
+| Term | Meaning in plain words |
+|---|---|
+| normative | About what *ought* to be (values, rules), as opposed to *descriptive*, which is about what *is* the case (facts). |
+| meta-ethics | Questions *about* morality itself: what "good" means, and whether moral claims can be true. |
+| is–ought gap | Hume's point that you can't logically get a conclusion about what *ought* to be from facts about what *is*. |
+| intrinsic good | Good in itself, for its own sake. |
+| instrumental good | Good because of what it leads to (e.g. money). |
+| theory of the good | A theory that first says what is valuable, then defines right action as whatever produces it. Consequentialism is the example. |
+| theory of the right | A theory where right action comes first and doesn't depend on results. Kant is the example. |
+| consequentialism | The view that an action is right only because of its consequences, if it produces the best overall results. The term was coined by Anscombe. |
+| optimific | Producing the best possible overall results. |
+| utilitarianism | Consequentialism where the good is happiness or well-being: "the greatest good for the greatest number". |
+| hedonism | The view that pleasure (and the absence of pain) is the only thing good in itself. |
+| desire-satisfaction theory | The view that what's good for you is getting what you desire. |
+| hedonic calculus | Bentham's method for adding up pleasures by intensity, duration, certainty, propinquity (how soon), fecundity (leads to more pleasure), purity (free of pain) and extent (how many people). |
+| higher pleasures | Mill: pleasures of the mind are better in *quality* than bodily pleasures, not just greater in quantity. |
+| act utilitarianism | Judge *each individual act* by whether it maximises overall well-being. |
+| rule utilitarianism | Follow the rules that would produce the best results *if everyone accepted them*, even when breaking one would help in a particular case. |
+| rule worship | Smart's criticism of rule utilitarianism: obeying a rule even when you know breaking it would do more good is irrational, like worshipping an idol. |
+| supererogation | Going beyond duty: good to do, but not wrong if you don't (e.g. heroism, charity). |
+| counterfactual | What *would* have happened if you had acted differently. |
+| impartiality | Counting everyone's interests equally, including strangers'. |
+| moral desert | What someone deserves (e.g. the innocent don't deserve punishment). |
+| effective altruism | A movement that uses utilitarian reasoning to do "the most good" with limited resources. |
+| longtermism | The view that we should focus on the very long-term future because most people who will ever live are yet to be born. |
+| deontology | A duty-based ethics (Greek *deon*, duty). Some acts are required or forbidden whatever their results. Kant's theory is the example. |
+| good will | For Kant, a will that does its duty *because* it is its duty. The only thing good without any condition. |
+| inclination | Desires and feelings (sympathy, fear, self-interest). For Kant they can't give an act moral worth. |
+| from duty | Doing the right thing *because it is right*. Only this has moral worth for Kant (contrast "in conformity with duty": doing it for profit or liking, like the honest shopkeeper). |
+| moral worth | The special value an act has when done from duty. |
+| maxim | The personal rule behind your action: what you're doing and why (e.g. "I'll make a false promise to get money when I need it"). |
+| hypothetical imperative | A conditional command: "*if* you want X, do Y". It binds you only if you want X. |
+| categorical imperative | An unconditional command: "do Y", whatever you want. Kant says all moral duties are like this. |
+| universalizability | Imagining your maxim as a rule *everyone* follows, and checking whether it still works. |
+| FUL | Formula of Universal Law, Kant's first test: act only on maxims you could will everyone to follow. |
+| FH | Formula of Humanity, Kant's second test: treat people always as ends, never *merely* as means. |
+| end in itself | Something valuable in itself; for Kant, every rational person. |
+| merely as a means | Using someone as a tool for your purpose in a way they couldn't agree to, e.g. by deceiving or coercing them. Using a shopkeeper's services with their agreement is fine. |
+| contradiction in conception | A maxim that couldn't even *exist* as a universal law (universal false promising destroys promising). It generates a perfect duty. |
+| contradiction in the will | A maxim that could exist universally but that you can't consistently *want* (a world where no one helps anyone). It generates an imperfect duty. |
+| perfect duty | A strict duty with no exceptions for inclination (don't make false promises). |
+| imperfect duty | A duty with leeway about when and how (develop your talents, help others sometimes). |
+| autonomy | Self-rule (Greek *autos*, self + *nomos*, law): the ability to give yourself moral laws by reason. |
+| Golden Rule | "Do unto others as you'd have them do unto you." Kant's test is *not* this, because the Golden Rule depends on what you personally want. |
+| trolley problem | A runaway trolley will kill five people unless you divert it so it kills one. Introduced by Foot; named by Thomson. |
+| patient's dilemma | Should a surgeon kill one healthy visitor to use his organs to save five patients? |
+| Doctrine of Double Effect | It can be permissible to cause a harm you *foresee but don't intend* (a side effect), but not one you *intend* as your aim or means. |
+| DDE | Doctrine of Double Effect (see above). |
+| negative duties | Duties *not to harm*. Foot holds they are stronger than positive duties (duties *to help*). |
+| Knobe effect | People judge a *bad* side effect as intentional but a *good* one as unintentional, even when the agent's attitude is the same. |
+| virtue ethics | An ethics centred on *character*: become a good person, and good actions will follow. |
+| eudaimonia | Flourishing: living well and doing well over a whole life. More than feeling happy. |
+| function argument | Aristotle: a thing is good when it performs its function well. The human function is rational activity, so the good human life is reasoning and acting well. |
+| moral virtue | A virtue of character (courage, temperance, generosity), acquired by **habit**. |
+| intellectual virtue | A virtue of the mind (e.g. practical wisdom), acquired by **teaching** and experience. |
+| habituation | Becoming good by repeatedly *doing* good acts until they become second nature. |
+| state of character | A stable disposition to feel and act in certain ways. Aristotle's "genus" of virtue. |
+| genus and differentia | A method of defining: the general class something belongs to (genus) plus what makes it distinct within that class (differentia). |
+| mean relative to us | The right amount *for this person in this situation*, not a mathematical average (food for Milo the wrestler vs a beginner). |
+| phronesis | Practical wisdom: knowing how to act well in particular situations, learned through experience. It finds the mean. |
+| episteme | Scientific knowledge of what is necessary and unchanging. |
+| techne | Craft skill: knowing how to make things. |
+| nous | Intuitive grasp of first principles. |
+| sophia | Theoretical wisdom: nous combined with episteme. |
+| continence | Doing the right thing while still having strong contrary desires. Less than full virtue, because the virtuous person *enjoys* acting well. |
+| moral exemplar | A role model of virtue whom we learn from by imitation. |
+| particularist | Holding that ethics can't be reduced to exact universal rules, so each case needs judgment. |
+| priority problem | Is an act right *because* the virtuous person does it, or does the virtuous person do it *because* it's right? |
+| causal responsibility | Causing something (a faulty O-ring can), as opposed to being *morally* answerable for it (only agents can be). |
+| active responsibility | Forward-looking duty to make things go well *before* anything happens. |
+| passive responsibility | Backward-looking responsibility *after* something has gone wrong. |
+| accountability | Having to explain and justify your actions to those entitled to ask. |
+| blameworthiness | Properly deserving blame. Needs wrong-doing, causal contribution, foreseeability and freedom. |
+| liability | Legal responsibility: being sued or punished. |
+| causal contribution | Your act *or failure to act* was a necessary part of what caused the outcome. |
+| foreseeability | You could reasonably have known the harm might happen. |
+| ought implies can | You can only be obliged to do what you're actually able to do. |
+| role responsibility | Duties that come with a role (employee, engineer, parent). |
+| professional responsibility | Role responsibility as a professional, but only within what morality allows. |
+| prima facie | "At first sight". Ross's term for a duty that holds unless a stronger duty outweighs it. *Sans phrase* / "all things considered" is what you must do after weighing them. |
+| Bovens | Mark Bovens, who listed the five features of active responsibility: noticing threats to norms, considering consequences, autonomy, a consistent code, taking role obligations seriously. |
+| effectiveness | How far a goal is achieved. |
+| efficiency | Goal achieved per unit of effort. |
+| value-laden | Containing value choices, even when it looks like neutral fact. |
+| separatism | The view that engineers supply technical facts and managers or politicians make the value decisions. |
+| tripartite model | The picture behind separatism: politicians and managers set goals, engineers design, users use, and engineers are responsible only for the technical part. |
+| hired gun | An engineer who does any assigned task without moral concern (von Braun). |
+| technocracy | Rule by experts (engineers) instead of managers or elected politicians. |
+| technocratic fallacy | The mistake of thinking technical expertise also makes you an expert on *values* and goals. |
+| paternalism | Deciding for others "for their own good", overriding their right to choose. |
+| whistle-blowing | Disclosing wrongdoing in your organisation without your superiors' consent, to stop it or warn the public. |
+| stakeholders | People affected by a technology who may have no say in shaping it. |
+| Collingridge dilemma | Early on, a technology's effects can't be predicted. Later, when they're known, it's too entrenched to change. |
+| CTA | Constructive Technology Assessment: assessing a technology's social effects *during* development and feeding that back into design. |
+| cognitivism | The view that moral statements express beliefs, so they can be true or false. |
+| non-cognitivism | The view that moral statements express feelings or attitudes, so they can't be true or false. |
+| truth-apt | Capable of being true or false. |
+| emotivism | Moral statements just express feelings, like "Boo, murder!". |
+| error theory | Mackie: moral statements try to state facts, but there are no moral facts, so they're all false. |
+| argument from queerness | Mackie: objective values would be impossibly strange things, knowable only by some strange special faculty. |
+| descriptive relativism | The factual claim that cultures *differ* in their moral beliefs. |
+| ethical relativism | The claim that what is right *really depends* on culture; there are no universal moral truths. |
+| prescriptive relativism | The claim that we therefore *shouldn't judge* other cultures. |
+| moral isolationism | Midgley's name for the view that we may not morally judge cultures other than our own. |
+| ethical egoism | You ought always to do what is in your own long-term interest. |
+| Euthyphro | Plato's dialogue asking whether God commands things because they are right, or whether they are right because God commands them. |
+| experience machine | Nozick's thought experiment: would you plug into a machine that gives perfect but fake experiences? If not, pleasure isn't all that matters. |
+| zoon politikon | Aristotle: humans are "political" (social) animals who flourish in community. |
+| solipsistic | Self-enclosed, as if only you and your experiences exist. |
+| reductio ad absurdum | Disproving a claim by showing it leads to an absurd result. |
+| thought experiment | An imagined scenario used to test a theory (the trolley, the experience machine). |
+
+</details>
+
+
+---
+
 ## Sources: open and check
 
 The links open the file in the **private GitHub repo**, so you need to be logged in as the repo owner. Citations throughout the guide (e.g. *LE p.92*, *vdP p.11*, *L7 s13*) are clickable and open the right file. GitHub's PDF viewer can't jump to a page, so the page to scroll to is shown when you hover over the link and in the table below.

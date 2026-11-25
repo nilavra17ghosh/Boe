@@ -34,9 +34,15 @@ h3{font-size:1.12rem;margin:2.2rem 0 .7rem;color:var(--accent)}
 p,li{hyphens:auto}
 strong{font-weight:600}
 a{color:var(--accent2)}
-a.cite{font:600 .78em Inter,sans-serif;text-decoration:none;background:color-mix(in srgb,var(--accent2) 12%,transparent);padding:.05em .35em;border-radius:4px;white-space:nowrap}
-a.cite:hover{background:color-mix(in srgb,var(--accent2) 25%,transparent)}
-a.cite::after{content:" ↗";font-size:.85em;opacity:.7}
+a.cite{font:500 .72em Inter,sans-serif;color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line);white-space:nowrap}
+a.cite:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
+span.g{border-bottom:1.5px dotted var(--accent);cursor:help}
+#tip{position:absolute;z-index:40;max-width:22rem;padding:.6rem .8rem;background:var(--ink);color:var(--bg);font:.82rem/1.5 Inter,sans-serif;border-radius:8px;box-shadow:0 6px 24px #0004;display:none}
+#tip b{display:block;margin-bottom:.15rem;color:var(--accent)}
+details{margin:1rem 0;border:1px solid var(--line);border-radius:10px;padding:.2rem 1rem}
+details[open]{padding-bottom:1rem}
+summary{cursor:pointer;padding:.6rem 0;font:600 .9rem Inter,sans-serif;color:var(--accent)}
+p{margin:0 0 1.1rem}li{margin:.35rem 0}ul,ol{padding-left:1.4rem}
 blockquote{margin:1.2rem 0;padding:.6rem 1.1rem;background:var(--quote);border-left:4px solid var(--accent);border-radius:0 8px 8px 0}
 .tw{overflow-x:auto;margin:1.2rem 0;border:1px solid var(--line);border-radius:10px}
 table{border-collapse:collapse;width:100%;font-size:.88rem;line-height:1.5}
@@ -70,6 +76,7 @@ li.task.done{color:var(--muted);text-decoration:line-through}
   <nav id="toc" aria-label="Contents"></nav>
   <main id="c">Loading…</main>
 </div>
+<div id="tip"></div>
 <button class="ic" id="top" onclick="scrollTo({top:0})">↑ Top</button>
 <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
 <script>
@@ -115,6 +122,7 @@ fetch('guide.md').then(r=>r.text()).then(md=>{
   c.querySelectorAll('code').forEach(k=>{const t=k.textContent.trim();const key=Object.keys(FILES).find(x=>t===x||t.startsWith(x));
     if(key&&!k.closest('pre')){const a=document.createElement('a');a.href=enc(FILES[key]);a.target='_blank';a.className='cite';a.textContent=t;a.title='Open source file';k.replaceWith(a)}});
   walk(c);
+  glossary(c);
   // checklist persistence
   c.querySelectorAll('li input[type=checkbox]').forEach((cb,i)=>{const li=cb.closest('li');li.classList.add('task');cb.disabled=false;
     const k='boe-chk-'+i;cb.checked=localStorage.getItem(k)==='1';li.classList.toggle('done',cb.checked);
@@ -128,6 +136,37 @@ fetch('guide.md').then(r=>r.text()).then(md=>{
   if(location.hash)document.querySelector(location.hash)?.scrollIntoView();
   setupSearch(c);
 });
+function glossary(c){
+  const det=c.querySelector('details');if(!det)return;
+  const G=[...det.querySelectorAll('tbody tr')].map(r=>[r.cells[0].textContent.trim(),r.cells[1].innerHTML]).filter(x=>x[0].length>2);
+  G.sort((a,b)=>b[0].length-a[0].length);
+  const esc=t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  const re=new RegExp('\\b('+G.map(g=>esc(g[0])).join('|')+')\\b','i');
+  const map=Object.fromEntries(G.map(g=>[g[0].toLowerCase(),g]));
+  let seen=new Set();
+  const nodes=[];const w=document.createTreeWalker(c,NodeFilter.SHOW_TEXT);
+  while(w.nextNode())nodes.push(w.currentNode);
+  for(const n of nodes){
+    const pe=n.parentElement;
+    if(pe.closest('h2'))seen=new Set();
+    if(pe.closest('details,h1,h2,h3,h4,a,code,pre,summary,span.g'))continue;
+    let t=n.textContent,m,frag=null,last=0,node=n;
+    const r=new RegExp(re.source,'gi');const parts=[];
+    while((m=r.exec(t))){const k=m[1].toLowerCase();if(seen.has(k)||!map[k])continue;seen.add(k);parts.push([m.index,m[0],map[k]]);}
+    if(!parts.length)continue;
+    frag=document.createDocumentFragment();
+    for(const [i,txt,g] of parts){frag.append(t.slice(last,i));const sp=document.createElement('span');sp.className='g';sp.tabIndex=0;sp.textContent=txt;sp.dataset.t=g[0];sp.dataset.d=g[1];frag.append(sp);last=i+txt.length}
+    frag.append(t.slice(last));n.replaceWith(frag);
+  }
+  const tip=document.getElementById('tip');
+  const show=e=>{const sp=e.target.closest('span.g');if(!sp)return;tip.innerHTML='<b>'+sp.dataset.t+'</b>'+sp.dataset.d;tip.style.display='block';
+    const r=sp.getBoundingClientRect();let x=r.left+scrollX;const W=Math.min(352,innerWidth-24);tip.style.maxWidth=W+'px';
+    x=Math.max(12,Math.min(x,scrollX+innerWidth-W-12));tip.style.left=x+'px';tip.style.top=(r.bottom+scrollY+8)+'px'};
+  const hide=e=>{if(!e.target.closest||!e.target.closest('span.g'))tip.style.display='none'};
+  c.addEventListener('mouseover',show);c.addEventListener('focusin',show);c.addEventListener('click',e=>{show(e);});
+  c.addEventListener('mouseout',e=>{if(e.target.closest('span.g'))tip.style.display='none'});
+  document.addEventListener('click',hide);addEventListener('scroll',()=>tip.style.display='none');
+}
 function setupSearch(c){
   const blocks=[...c.children];const q=document.getElementById('q');
   q.oninput=()=>{const v=q.value.trim().toLowerCase();
