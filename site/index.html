@@ -21,11 +21,14 @@ button.ic{border:1px solid var(--line);background:var(--panel);color:var(--ink);
 .wrap{display:grid;grid-template-columns:17rem minmax(0,1fr);max-width:84rem;margin:0 auto}
 nav{position:sticky;top:3.2rem;height:calc(100vh - 3.2rem);overflow:auto;padding:1.2rem .8rem 2rem 1.2rem;border-right:1px solid var(--line);font:.82rem/1.45 Inter,sans-serif}
 nav a{display:block;color:var(--muted);text-decoration:none;padding:.22rem .5rem;border-radius:6px}
-nav a.h3{padding-left:1.3rem;font-size:.78rem}
+nav a.h3{padding-left:1.3rem;font-size:.78rem;display:none}
+nav a.h3.show{display:block}
+nav a.h2{font-weight:500;color:var(--ink);margin-top:.15rem}
+#shade{position:fixed;inset:3.2rem 0 0 0;background:#0006;z-index:24;display:none}#shade.on{display:block}
 nav a:hover{background:var(--panel);color:var(--ink)}
 nav a.on{color:var(--accent);background:var(--panel);font-weight:600}
 main{padding:2rem clamp(1rem,4vw,3.5rem) 6rem;min-width:0;overflow-wrap:anywhere}
-html,body{overflow-x:hidden}
+body{overflow-x:clip}
 main>*{max-width:var(--w)}
 main>table,main>pre,main>div.tw{max-width:100%}
 h1,h2,h3,h4{font-family:Inter,sans-serif;line-height:1.25;letter-spacing:-.01em}
@@ -78,7 +81,8 @@ li.task.done{color:var(--muted);text-decoration:line-through}
   <main id="c">Loading…</main>
 </div>
 <div id="tip"></div>
-<button class="ic" id="top" onclick="scrollTo({top:0})">↑ Top</button>
+<div id="shade"></div>
+<button class="ic" id="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
 <script>
 const REPO='https://github.com/nilavra17ghosh/Boe/blob/main/';
@@ -130,9 +134,12 @@ fetch('guide.md').then(r=>r.text()).then(md=>{
     cb.onchange=()=>{localStorage.setItem(k,cb.checked?'1':'0');li.classList.toggle('done',cb.checked)}});
   // TOC
   const toc=document.getElementById('toc');const hs=[...c.querySelectorAll('h2,h3')];
-  hs.forEach(h=>{h.id=h.id||slug(h.textContent);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent.replace(/^PART (\d+):/,'$1 ·');a.className=h.tagName.toLowerCase();toc.appendChild(a);a.onclick=()=>toc.classList.remove('open')});
+  hs.forEach(h=>{h.id=h.id||slug(h.textContent);const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent.replace(/^PART (\d+):\s*/,'$1 · ').replace(/\s*\(.*$/,'').replace(/^(.{10,}?)\.\s(?=[A-Z]).*$/,'$1');a.className=h.tagName.toLowerCase();toc.appendChild(a);a.onclick=closeMenu});
   const links=[...toc.querySelectorAll('a')];
-  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id))}}),{rootMargin:'-10% 0px -80% 0px'});
+  const group=new Map();let cur2=null;links.forEach(l=>{if(l.classList.contains('h2'))cur2=l;group.set(l,cur2)});
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const act=links.find(l=>l.getAttribute('href')==='#'+e.target.id);if(!act)return;const parent=group.get(act);
+    links.forEach(l=>{l.classList.toggle('on',l===act||l===parent&&act!==parent);if(l.classList.contains('h3'))l.classList.toggle('show',group.get(l)===parent)});
+    if(!toc.classList.contains('open'))act.scrollIntoView({block:'nearest'})}),{rootMargin:'-10% 0px -80% 0px'});
   hs.forEach(h=>io.observe(h));
   if(location.hash)document.querySelector(location.hash)?.scrollIntoView();
   setupSearch(c);
@@ -181,7 +188,9 @@ function mark(el,v){const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);c
 const root=document.documentElement;const saved=localStorage.getItem('boe-theme');
 if(saved?saved==='dark':matchMedia('(prefers-color-scheme: dark)').matches)root.dataset.theme='dark';
 document.getElementById('theme').onclick=()=>{const d=root.dataset.theme==='dark';root.dataset.theme=d?'':'dark';localStorage.setItem('boe-theme',d?'light':'dark')};
-document.getElementById('menu').onclick=()=>document.getElementById('toc').classList.toggle('open');
+function closeMenu(){document.getElementById('toc').classList.remove('open');document.getElementById('shade').classList.remove('on')}
+document.getElementById('menu').onclick=()=>{const t=document.getElementById('toc');const o=t.classList.toggle('open');document.getElementById('shade').classList.toggle('on',o);if(o)t.querySelectorAll('a.h3').forEach(a=>a.classList.add('show'))};
+document.getElementById('shade').onclick=closeMenu;
 addEventListener('scroll',()=>{const h=document.documentElement;document.getElementById('bar').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';document.getElementById('top').style.display=h.scrollTop>800?'block':'none'});
 </script>
 </body>
