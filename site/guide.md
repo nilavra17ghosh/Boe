@@ -841,6 +841,141 @@ Name the objection, then give the best reply, then your verdict: *"An objection 
 
 ---
 
+## PART 10: Solved previous-year questions
+Each answer is written at exam length and follows the marking pattern in the answer keys: **bold label, then a description**, with every part of the question answered under its own heading.
+
+### 10.1 End-semester 2024 (answer any 3 of 5; 3 × 10)
+
+**Q1. What is moral responsibility? Distinguish active and passive responsibility. Describe the three forms of passive responsibility and the four conditions under which they come about.**
+
+**Moral responsibility.** To be responsible is, first of all, to be *"held accountable for your actions and for the effects of your actions"* (vdP p.9). A responsible person is open to praise, blame, punishment or reward (L9 s10). Choices, decisions and *failures to act* all count as actions: *"Failing to save a child who is drowning is therefore also a type of action"* (vdP p.9). **Moral** responsibility rests on moral norms and duties. It differs from **role** responsibility: it can extend beyond a role and can also limit it (vdP p.10).
+
+**Active vs passive responsibility.**
+- **Active (forward-looking):** responsibility *before* something happens, *"a duty or task to care for certain state-of-affairs or persons"* (vdP p.9). It isn't mainly about blame. It needs a positive attitude, a virtue (vdP p.13). Bovens lists five features: perceiving threatened violations of norms; considering consequences; autonomy; conduct based on a consistent code; taking role obligations seriously.
+- **Passive (backward-looking):** applies *after* something undesirable has happened. The person must give an account of why they acted as they did (vdP p.10).
+
+**The three forms of passive responsibility** (vdP pp.10–11):
+1. **Accountability:** having to justify one's actions to those entitled to demand it. Example: NASA had to account to the victims' families, the public and the court.
+2. **Blameworthiness:** being a proper target of blame for one's actions or their consequences. If you can't give a satisfactory account, you are blameworthy (vdP p.28).
+3. **Liability:** legal responsibility, such as damages or punishment.
+
+**The four conditions of blameworthiness** (vdP pp.11–13), applied to the 1986 Challenger disaster:
+1. **Wrong-doing:** a norm was violated. NASA reversed the burden of proof, asking engineers to prove the launch was *unsafe*, though its own policy required proof that it was *safe*.
+2. **Causal contribution:** the person's act or omission was a necessary part of the causal chain. Both NASA and Thiokol management had to approve the launch, and either could have stopped it.
+3. **Foreseeability:** the consequences could reasonably have been known. Everyone knew the O-rings eroded at low temperatures, even without conclusive proof.
+4. **Freedom:** the person wasn't acting under compulsion ("ought implies can"). Schedule pressure, the publicity around McAuliffe and Thiokol's contract weighed on the decision. Boisjoly feared for his job. None of this amounted to compulsion.
+
+**Inference.** *"The extent to which you can be blamed is determined by the degree to which these conditions are fulfilled"* (vdP p.11). So blame comes in **degrees**. NASA and Thiokol management are clearly blameworthy. Boisjoly's responsibility is **reduced** but not removed, because he faced real personal costs and had little influence.
+
+---
+
+**Q2. Outline Nozick's experience machine. What is its intention? Give four reasons not to plug in. Would you plug in?**
+
+**The thought experiment** (L4 s15). Imagine a virtual-reality machine that gives you a lifetime of the best experiences you could want. Once plugged in, you don't know you're in a machine and you believe you're really doing everything you enjoy. Compare this with a person who *actually* does and enjoys those things. Most of us judge the real life better, even though both contain *the same amount of happiness*.
+
+**Its intention.** To refute **hedonism**, the view that pleasure (pleasant experience) is the only intrinsic good and that a life goes well exactly as far as it is happy. If hedonism were true, the two lives would be equally good. Since they aren't, something besides experience matters. It extends the **argument from false happiness** (L4 s14).
+
+**Four reasons not to plug in** (L4 s16–19):
+1. **We want to *do* things,** not just have the experience of doing them.
+2. **We want to *be* a certain kind of person,** courageous, kind or loving. A body floating in a tank isn't anyone in particular. (Compare Aristotle: virtue is a state of character built through real action.)
+3. **Contact with reality.** The machine confines us to a human-made world, with no contact with any deeper reality. Related to this, **almost all our beliefs would be false**: your pride at being a great violinist would rest on an illusion (L4 s17).
+4. **Community and the full range of emotion.** We are *zoon politikon* (Aristotle). The machine is solipsistic, cuts us off from solidarity with others, and narrows us to pleasant feelings when sorrow, heartbreak and companionship are also part of being human (L4 s18).
+- *(Also usable: **autonomy** has value even when it doesn't make us happy (L4 s19). Our **responsibility** to a world that needs our action. Mill's **higher pleasures** of an active intellect, which the Quiz-1 2026 key explicitly rewarded as a link.)*
+
+**My verdict: stay out.** The machine gives me pleasure, but it takes away the things that make pleasure worth having: real achievement, real relationships, a character I actually formed, and true beliefs about my life. As Socrates says, *"the unexamined life is not worth living"* (L4 s15), and a life in the machine can't be examined. A hedonist could reply that I would never know the difference. But I'm judging the two lives *now*, from outside the machine, and that judgment itself shows I value more than experience.
+
+---
+
+**Q3, Q4, Q5:** see **Model Answers 1, 2 and 3** in Part 8.5.
+
+### 10.2 Quiz-1 2026 (answer any 3 of 4; 3 × 5). Answers follow the professor's own key
+
+**Q1. Reconstruct Midgley's "moral isolationism" as the standard relativist argument. Give two flaws.**
+1. **Descriptive relativism:** cultures differ in their fundamental beliefs about value. *Midgley:* in samurai Japan there was a custom of "trying out one's new sword" on a chance stranger.
+2. **Ethical relativism:** what is right in one culture may be wrong in another; there are no universal moral truths. *Midgley:* the isolationist says we can understand only our own culture, so right and wrong are relative to it.
+3. **Prescriptive relativism:** so it is wrong to judge other cultures. *Midgley:* this is **moral isolationism**: we may not criticise any other culture, and moral judgment is "a kind of coinage valid only in its country of origin."
+
+**Flaws:**
+- **Is to ought:** step 1 states a fact about what people believe, and step 2 draws a conclusion about what is right. That is an unjustified jump from what *is* believed to what *ought* to be.
+- **Self-refutation:** if nothing is universally wrong (step 2), then "judging other cultures is wrong" can't be universally true either, so step 3 contradicts step 2.
+- *(Also accepted: values shared across cultures exist; the move from belief to truth.)*
+
+**Q2. How does Mackie's error theory differ from emotivism? Outline the argument from queerness.**
+- **Error theory: a cognitivist theory.** Moral judgments express **beliefs** and aim at truth, but because there are no objective moral facts, they are **always false**.
+- **Emotivism: a non-cognitivist theory.** Moral judgments don't express beliefs. They express **feelings of approval or disapproval** ("Boo!/Hurrah!"), so they are neither true nor false.
+- **The argument from queerness:**
+  - **Metaphysical part:** if objective values existed, they would be entities, qualities or relations of a very strange sort, utterly unlike anything else in the universe. They would have to be *intrinsically action-guiding*, giving reasons to act whatever one desires.
+  - **Epistemological part:** if we knew them, it would have to be through some special faculty of moral perception or intuition, utterly unlike our ordinary ways of knowing.
+
+**Q3. Who wrote "It is better to be a human being dissatisfied than a pig satisfied…"? Give three points of significance.**
+- **Author: John Stuart Mill**, *Utilitarianism* (1863).
+1. **Quality, not only quantity:** some kinds of pleasure are more desirable and valuable than others. Against Bentham's purely quantitative calculus, Mill says it would be absurd to judge pleasures by quantity alone.
+2. **Higher faculties:** humans have faculties higher than animal appetites, and once aware of them don't count anything as happiness that leaves them unsatisfied. This answers the charge that utilitarianism is a "doctrine worthy only of swine".
+3. **Competent judges:** only those who know both kinds of pleasure can rank them, and they prefer the higher. The fool and the pig "only know their own side of the question."
+- *(Bonus link rewarded by the key:* this explains, from within utilitarianism, why one should **not plug into Nozick's experience machine**.)
+
+**Q4. The patient's dilemma under act- and rule-utilitarianism.**
+- **Act-utilitarianism.** **(a)** Sacrifice the one healthy man to save the five. **(b)** It produces the greatest good for the greatest number: five lives against one. **Limitation:** no room for **rights or moral desert**; the innocent man is sacrificed. *(Also accepted: it needs knowledge of counterfactuals; it erases supererogation; it is too demanding.)*
+- **Rule-utilitarianism.** **(a)** Don't sacrifice him. **(b)** The right act follows an **optimific social rule**. A rule letting doctors harvest healthy visitors would make the world worse, because no one healthy would go near a hospital. **Limitation:** **irrational rule-worship** (Smart): following the rule even when breaking it would produce more good. And if exceptions are added, it collapses back into act-utilitarianism.
+
+### 10.3 Quiz-1 2024 (Section A compulsory 2 × 2; Section B any 2 × 3). Answers follow the 2024 key
+**Q1(a). "Ought implies can" vs "can implies ought."**
+- **Ought implies can:** if someone is obliged to do something, they must be able to do it. Capability is a necessary condition of obligation.
+- **Can implies ought:** the fallacy of inferring that because one *can* do something, one *should*. In effect, might makes right.
+
+**Q1(b). Egoism vs relativism.**
+- **Ethical egoism:** morality is relative to the *self*. It is right to do whatever is in your own long-term interest, and you have no duties to others beyond that.
+- **Relativism:** morality is relative to *culture*. Right is whatever one's culture or tradition approves.
+
+**Q2. Moral realism vs moral skepticism; two ways of attaining moral knowledge.**
+- **Realism:** there are objective moral truths. **Skepticism** (egoism, relativism, error theory): there are none, or we can't know them.
+- **Ways of knowing, for the realist** (L2 s5, s12, s15):
+  - **A priori reason or intuition:** we know stealing is wrong from the concept itself, as we know truths of mathematics. Russell held that judgments of intrinsic value are immediate and a priori.
+  - **Experience (a posteriori):** perceiving moral features of situations.
+  - *(Also cited in the slides: the common moral sentiments of Hume and Smith, and Kant's common human reason, L2 s22.)*
+
+**Q3. Hedonism vs desire-satisfaction theory; two limitations of hedonism.**
+- **Hedonism:** pleasure, and the absence of pain, is the only intrinsic good.
+- **Desire-satisfaction theory:** what is intrinsically good for you is whatever satisfies your desires.
+- **Two limitations:**
+  - **Evil pleasure:** hedonism can't tell happiness from cruelty apart from happiness from kindness.
+  - **False happiness:** it can't tell happiness based on true beliefs from happiness based on false ones (the experience machine).
+  - *(Also accepted: autonomy has value even when it brings pain; we want to do and be things, not merely experience them.)*
+
+**Q4. The standard relativist argument, with one flaw.** See 10.2 Q1:
+1. Descriptive relativism: cultures differ.
+2. Ethical relativism: there are no universal moral truths.
+3. Prescriptive relativism: don't judge others.
+- **Flaw:** the move from belief to truth. That a culture *believes* something is right doesn't make it right.
+
+### 10.4 Pop quiz 2024 (MCQs): answers with reasons
+| Q | Answer | Why (source) |
+|---|---|---|
+| 1 | **b** | Kant: theory of the right; utilitarianism: theory of the good (L7 s5) |
+| 2 | **c** Rule-utilitarianism | The three-step optimific-rule test (L6 s19) |
+| 3 | **a** | Moral laws are necessary and apply to all *rational* beings |
+| 4 | **d** a good will | LE p.86 |
+| 5 | **d** consistency and fairness | L7 s13 |
+| 6 | **a** | A maxim is the principle one acts on (LE p.90 n.1) |
+| 7 | **c** categorical | L7 s9 |
+| 8 | **d** | LE p.92 |
+| 9 | **b** one's own will | Autonomy (L7 s15) |
+| 10 | **d** Golden Rule | L7 s11 |
+| 11 | **c** Mill | L6 s13 |
+| 12 | **c** I, II and III | DDE (L7 s30) |
+| 13 | **a** | Moral flexibility is an *attraction* of utilitarianism, not a limitation (L6 s20) |
+| 14 | **c** Foot | L7 s26 |
+| 15 | **b** | The Golden Rule is rejected as a standard (L7 s11) |
+| 16 | **c** "cheating is wrong" | The only one that doesn't depend on a desire |
+| 17 | **a** | Knobe effect (L7 s22–24) |
+| 18 | **d** | L6 s21 |
+| 19 | **a** the principle of utility | |
+| 20 | **c** pain and pleasure | L6 s7 |
+
+*The answers marked on the scanned key don't come through in the extracted text. These were worked out from the slides, so check them against the scan.*
+
+---
+
 ## APPENDIX: Earlier topics that can be asked directly
 The 2024 end-sem asked a pure pre-quiz question (the experience machine). These are compact, answer-key-style summaries. Each point is labelled the way the keys reward.
 
