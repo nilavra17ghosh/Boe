@@ -537,6 +537,74 @@ Labels: **[HIGH]** means strongly supported by PYQ repetition and the syllabus n
 - [MED] *"Once the rockets go up / Who cares where they come down…"* What model of engineering responsibility does this satirise? (vdP p.22; separatism / hired gun)
 - [MED] *"…we become just by doing just acts…"* Explain and resolve the apparent circularity.
 
+### 7.7 Quiz-1-style questions on the end-sem syllabus, with mock answer keys
+These copy the *format* of each 2026 Quiz-1 question and apply it to the new readings. The keys follow the professor's scheme: ½ mark for the label, 1 mark for the description, plus a mark for the correct order. Practise reproducing the **bold labels** exactly.
+
+**A. "Reconstruct the argument as it appears in the reading, in the form discussed in class, and bring out two flaws."** (The pattern of Quiz-1 Q1)
+
+*A1. Reconstruct Kant's false-promise argument (LE pp.88–90) using the three-step universalizability test discussed in class. Bring out two limitations of the test.*
+
+| Step (class label, L7 s13) | Maps onto Kant's text |
+|---|---|
+| **1. Formulate the maxim** | "when I believe myself to be in need of money I shall borrow money and promise to repay it, even though I know that this will never happen" (LE p.91) |
+| **2. Universalize it: imagine a world where everyone acts on it** | "how would it be if my maxim became a universal law?" (LE p.91) |
+| **3. Can the goal still be achieved?** No. "no one would believe what was promised", so the maxim "would have to destroy itself" (LE p.89). It fails **consistency** and **fairness**, so it is a **perfect duty** not to make false promises |
+
+The order matters: maxim → universalize → test the goal. **Limitations (any two):**
+1. The test is compatible with slavery and tyranny of the majority, which is why FH is needed (L7 s14).
+2. It ignores severe consequences (L7 s32).
+3. Perfect duties are rigid when duties conflict.
+4. Narrowly worded immoral maxims can pass, and harmless ones can fail (LE p.93 Q5).
+
+*A2. Reconstruct Aristotle's argument for what virtue is (LE pp.146–147) using the genus/differentia structure discussed in class. Bring out two objections.*
+
+| Step (class label, L8 s20–23) | Maps onto the text |
+|---|---|
+| **1. Genus: the soul has passions, faculties, states of character** | Virtue isn't a **passion**: we aren't praised for merely feeling, and passions involve no choice. It isn't a **faculty**: faculties come by nature. So it is a **state of character** |
+| **2. Differentia: a disposition to choose the mean** | Excellence makes a thing do its work well (the eye). The mean is **relative to us** (Milo) |
+| **3. Definition** | "a state of character concerned with choice, lying in a mean… determined by… the man of practical wisdom" |
+
+**Objections (any two):**
+1. The **priority problem**, a Euthyphro-style dilemma (LE pp.142–143).
+2. **Inadequate guidance** when virtues conflict (LE p.140).
+3. **Who are the exemplars?** (LE p.140).
+4. "**Moderate murder**?" Answered by "no mean" for acts bad by their very name (LE p.147).
+
+*A3. Reconstruct the case for blaming Morton Thiokol's management using the four conditions of blameworthiness. Bring out two complications.*
+- **Labels in order:** wrong-doing → causal contribution → foreseeability → freedom. Map each onto a Challenger fact (see Part 5, table 5).
+- **Complications (any two):**
+  1. Blame comes in degrees, and pressure reduces it (vdP p.11).
+  2. With many actors, each one's causal contribution and foresight is smaller (vdP p.29).
+  3. Omissions count as causes, so Boisjoly is implicated too.
+  4. Collingridge: consequences are often unforeseeable early on.
+
+**B. "From a [meta-ethical / normative] standpoint, how is X different from Y? Briefly outline Z as it appears in the essay."** (The pattern of Quiz-1 Q2)
+
+*B1. From a normative standpoint, how does Kant's ethics differ from utilitarianism? Outline the distinction between acting from duty and acting in conformity with duty as it appears in the reading.*
+- **Kant: theory of the right** (½). Right is prior to the good; the act is judged by its maxim and motive; the good will is unconditionally good (1).
+- **Utilitarianism: theory of the good** (½). Right is whatever produces the most good; the act is judged by its consequences (1).
+- **In conformity with duty** (½): the shopkeeper's honesty comes from self-interest, so it has no moral worth (1).
+- **From duty** (½): the grieving philanthropist helps "without any inclination", so "then the action first has its genuine moral worth" (1).
+
+*B2. How does Aristotle's virtue ethics differ from Kant's deontology? Outline "the mean relative to us" as it appears in the reading.*
+- **Level of evaluation:** character vs motive/maxim. **Precision:** "no fixity" vs universal law. **Emotion:** right feeling is part of virtue vs inclination gives no moral worth.
+- **Mean in the object** (arithmetic: 6 between 10 and 2) vs **mean relative to us** (Milo vs the beginner).
+
+**C. "Who is the author of this quotation? Bring out three points of ethical significance."** (The pattern of Quiz-1 Q3)
+- See the three-point drills in 9.2. Possible new quotations: the jewel, the humanity formula, the definition of virtue, "neither by nature…", the Lehrer lyric, "Each role brings with it certain responsibilities".
+- **Remember the cross-lecture point** the key rewarded (Mill → Nozick). Examples: the jewel → against Bentham's hedonism; Aristotle's "delight" in virtue → against Kant's dutiful man; efficiency is value-laden → the is–ought gap.
+
+**D. "Here is a dilemma. In the context of (1) X and (2) Y: (a) what is the right thing to do, (b) on what basis? Give one limitation of each."** (The pattern of Quiz-1 Q4)
+
+*D1. The patient's dilemma, for (1) Kantian ethics and (2) virtue ethics.*
+- **Kant, (a):** don't harvest the organs. **(b):** FH forbids using the healthy man *merely as a means*, since he "cannot possibly agree". The maxim "kill the innocent to save more" also can't be universalized: no one would visit a hospital. **Limitation:** it ignores the five deaths and severe consequences; rigidity.
+- **Virtue ethics, (a):** don't harvest. **(b):** a just, practically wise doctor would never characteristically do this; justice and trust are part of the healer's role and excellence. **Limitation:** gives little concrete guidance in harder cases; the priority problem.
+
+*D2. A manager orders an engineer to ship software with a known safety bug before a deadline. For (1) a Kantian and (2) a virtue ethicist: what is right, and on what basis? One limitation each.*
+- **Kant:** refuse and disclose. Loyalty to the employer is only a hypothetical imperative, while the duty not to deceive users is categorical, and deceiving users uses them merely as means. **Limitation:** may cost the job; doesn't weigh the consequences.
+- **Virtue ethics:** courage (the mean between silence and reckless leaking), honesty and phronesis mean escalating internally first, then following De George's conditions. **Limitation:** "what would the virtuous person do" is underdetermined.
+- **Grading note from the key:** your verdict can vary. **State the grounding principle.**
+
 ---
 
 ## PART 8: How to write answers for this examiner
