@@ -49,6 +49,22 @@ The Quiz-1 2024 key (`BoE_quiz1_2024_M_key.pdf`) shows the marking: **1 mark per
 | Quiz-1 2026 Q4 | Patient's dilemma under act vs rule utilitarianism; one limitation each | Application + comparison | L6 |
 | Pop quiz 2024 | MCQs on Kant, util, trolley, DDE, Knobe, Bentham | Recall | L6–7 |
 
+### 0.5 What this year's Quiz-1 answer key shows (`Quiz-1_answer key-1.pdf`, 24 Oct 2026)
+This is the most direct evidence of how the *current* examiner marks. Five rules follow from it:
+
+1. **Label + description.** Each point is split into **½ mark for the correct technical label** and **1 mark for the description**. Example: "*Metaphysical part* (label) → objective values would be entities 'utterly different from anything else in the universe' (description)". **So always name the concept in bold, then explain it.** If you leave the label out, you lose half the point.
+2. **Map the reading onto the class framework.** Q1 gave marks for (a) the class label (descriptive / ethical / prescriptive relativism), (b) mapping each label onto Midgley's text (samurai sword → descriptive relativism, and so on), and (c) **1 mark for the correct order of the argument.** *"A rough mapping should do."* For the end-sem, expect the same exercise with the new readings:
+   - **Kant:** map the **false-promise passage** (LE pp.88–89) onto the **three-part universalizability test** (L7 s13). Formulate the maxim → universalize it → the goal is defeated, because promising "would have to destroy itself". Or map the four examples onto FUL and then FH (LE pp.90–92).
+   - **Aristotle:** map Book II onto **genus → differentia → definition** (L8 s20–23). Or map "we become just by doing just acts" onto the **circularity puzzle → three conditions** (L8 s18–19).
+   - **van de Poel:** map **Challenger facts onto the four conditions** (L9 s16–20). Or map **Boisjoly / von Braun / Taylor / van Veen** onto **separatism / hired gun / technocracy / whistle-blowing** (vdP pp.21–24).
+3. **Quotation → identify author → give three points of significance** (Q3: 0.5 for the author, 1.5 per point). Candidates for the end-sem: Kant's "jewel" (LE p.87), the humanity formula (LE p.92), Aristotle's definition of virtue (LE p.147), "neither by nature nor contrary to nature" (LE p.144), "we become just by doing just acts" (LE p.144), Lehrer's von Braun lyric (vdP p.22). Have **three significance points ready for each** (see 9.2).
+4. **Cross-lecture links earn marks.** Q3's key gave a full 1.5 marks for linking Mill to **Nozick's experience machine**. A link between lectures counts as a point in its own right. Use the "Recall…" links on L9 s19, s21, s25 (Bovens ↔ util, Kant and virtue; freedom ↔ ought implies can, hypothetical vs categorical).
+5. **Lenient on the verdict, strict on the basis.** Q4 accepted *any* rule-utilitarian verdict *"as long as they note … a socially optimific rule"*. The examiner rewards the **justifying principle**, not one particular answer. In application questions, **always state the principle that grounds your verdict.**
+
+**The ready-to-use list of limitations from the key** (also for Kant comparisons):
+- **AU:** needs knowledge of counterfactuals; no line between obligation and supererogation (too demanding); strict impartiality; no room for desert or rights.
+- **RU:** irrational rule-worship (Smart); collapses back into AU once exceptions are added.
+
 **How the professor sets questions:**
 1. **About one question per reading**, phrased in the slide-deck's own vocabulary (e.g., "fairness, consistency, humanity" is L7 s8, s13 and s14 word for word).
 2. **At least one cross-cutting question** that runs a case through all three normative theories (2024 Q3). With the syllabus now explicitly about *connecting* topics, expect this again.
@@ -659,6 +675,28 @@ Name the objection, then give the best reply, then your verdict: *"An objection 
 | Hired gun (Lehrer) | "Once the rockets go up / Who cares where they come down / 'that's not my department,' said Wernher von Braun." | 22 |
 | Von Braun | "My refusal to join the party would have meant that I would have had to abandon the work of my life. Therefore, I decided to join" | 15 |
 | Paternalism | "…paternalism denies that people have the right to shape their own lives." | 23 |
+
+**Three-point drills for quote identification** (the Quiz-1 Q3 format)
+- **"…like a jewel, it would still shine by itself…" (Kant, *Groundwork*, LE p.87).**
+  1. The good will is the only thing good *without limitation*; talents and fortune can turn evil.
+  2. Moral worth doesn't depend on results, so this is a theory of the right, against utilitarianism.
+  3. Worth lies in acting *from duty*, in the maxim (the shopkeeper vs the philanthropist).
+- **"So act that you use humanity…" (Kant, LE p.92).**
+  1. Persons are ends in themselves because they are rational and autonomous; things have only relative worth.
+  2. The key word is *merely*: the consent test ("cannot possibly agree").
+  3. It closes the gap FUL leaves (slavery, tyranny of the majority, L7 s14) and forbids harvesting organs in the patient's dilemma.
+- **"Virtue, then, is a state of character concerned with choice, lying in a mean…" (Aristotle, *NE* II, LE p.147).**
+  1. Genus: a *state of character*, not a passion or a faculty.
+  2. The mean is *relative to us* (Milo), not arithmetic, and it is excellence, not mediocrity.
+  3. It is fixed by the *man of practical wisdom*, so moral virtue depends on the intellectual virtue of phronesis.
+- **"Neither by nature, then, nor contrary to nature…" (Aristotle, LE p.144).**
+  1. Moral virtue comes from *habit*, intellectual virtue from *teaching*.
+  2. Stone example: what is by nature can't be habituated, so virtue isn't natural.
+  3. We have the capacity by nature and perfect it by practice, hence moral education and learning by doing.
+- **"Once the rockets go up / Who cares where they come down…" (Tom Lehrer on von Braun, quoted vdP p.22).**
+  1. It satirises *separatism* and the tripartite model.
+  2. It shows the "hired gun": technological enthusiasm cut off from consequences.
+  3. Contrast the human-welfare ideal and active responsibility. Link to Arendt and Eichmann on the failure to think.
 
 **Others (from the slides)**
 - Bentham: "two sovereign masters, pain and pleasure" (L6 s7)
